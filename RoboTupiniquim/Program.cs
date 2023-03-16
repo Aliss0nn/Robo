@@ -96,36 +96,7 @@
                 Console.WriteLine($"{posicaoinicialx } {posicaoinicialy} {direçao}" );
 
                 contador++;
-            } while ( contador != 2);
-            
-            
-          
-
-
-
-
-
-    }
-
-
-
-
-
-
-
+            } while ( contador != 2);                       
+       }
     }    
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-    
+}    
