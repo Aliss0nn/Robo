@@ -2,14 +2,20 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+         static void TamanhoDoGrid()
         {
-
             Console.Write(" Digite o tamanho do grid X: ");
             int gridx = int.Parse(Console.ReadLine());
 
             Console.Write(" Digite o tamanho do grid y: ");
             int gridy = int.Parse(Console.ReadLine());
+
+        }
+               
+        static void Main(string[] args)
+        {
+
+            TamanhoDoGrid();
                    
             int contador = 0;
 
